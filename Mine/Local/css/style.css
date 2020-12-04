@@ -1,0 +1,123 @@
+/*
+  Theme Name: Name : Jakkas Theme
+  Author: author@mail.com
+  Support: admin@mail.com  
+  Description: Creative HTML5 THEME
+  Version: 1.0
+*/
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html,
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: #777;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:focus {
+    outline: 0px solid;
+}
+
+a:hover {
+    color: #ec4445;
+    text-decoration: none;
+}
+
+a:active,
+a:hover {
+    outline: 0 none;
+}
+
+img {
+    max-width: 100%;
+    display: inline-block;
+    height: auto;
+}
+
+
+
+p {
+    position: relative;
+    line-height: 1.7em;
+    margin: 0 0 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    font-weight: normal;
+    background: none;
+    line-height: 1.7em;
+    margin: 0 0 10px;
+}
+
+ul {
+    list-style: none outside  none;
+    margin: 0;
+    padding: 0;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
